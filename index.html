@@ -210,6 +210,21 @@ No matter where life takes you, may it always be kind to you, today and always. 
 
 
 
+/* Gallery grid */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+/* Center last row */
+.last-row-center {
+  grid-column: 1 / -1;     /* FULL ROW */
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
 
 
 
